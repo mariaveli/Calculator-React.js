@@ -1,0 +1,74 @@
+body {
+    background-color: #c5d1e5;
+    font-family: 'Orbitron', sans-serif;
+}
+button{
+    width:50px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:#6d696a;
+    border-color: #382f31;
+    box-shadow:2px 1px 1px 0.5px #382f31;
+    font-weight: bold;
+}
+h6{
+    text-align: center;
+    margin: 10px;
+}
+#display {
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: right;
+    padding: 5px;
+    font-size: 20px;
+    overflow: hidden;
+}
+#display2 {
+    margin-left: 5px;
+    margin-top: -25px;
+    text-align: right;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 5px;
+}
+#dis-but{
+    display: block;
+    position: static;
+    margin: 6%;
+}
+#calculus-pad {
+    width: 280px;
+    heigth: 1000px;
+    background-color: #b8bbc1;
+    border-radius: 20px;
+    box-shadow:6px 10px 25px 8px #728482;
+    border: 2px solid #849b99;
+    margin-left: 38%;
+    margin-top: 5%;
+
+}
+.sidePad {
+    background-color:#cfd5d6;
+    border-radius: 5px;
+    box-shadow:2px 3px 2px 2px #76797a inset;
+    border: 2px solid #76797a inset;
+    height : 58px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+
+#zero {
+    width: 110px;
+}
+#equals {
+    height: 80px;
+    vertical-align: top;
+    display: inline !important;
+    position: absolute;
+}
+#clear, #delete {
+    background-color :#c60942;
+}
